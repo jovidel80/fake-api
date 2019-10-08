@@ -1,0 +1,399 @@
+{
+  "comments": [
+    {
+      "idConfig": "Al iniciar server colocar la opción --id cc para configurar la columna cc como clave primaria"
+    }
+  ],
+  "centrocosto": [
+    {
+      "cc": 2,
+      "codTipocc": "HI",
+      "ccDireccion": "Los Carrera...",
+      "ccComuna": "CONCEPCION",
+      "ccRegion": "VIII REGION DEL BIOBIO",
+      "ccCiudad": "CONCEPCION",
+      "ccNombre": "HC 02 Los Carreras.S.A.XD",
+      "ccNombreAbrev": "HC-LC",
+      "ccIsStore": "F",
+      "ccDesactivado": 0,
+      "listCapacidadCanal": [],
+      "listRangoHora": [
+        {
+          "codigo": "AM",
+          "capacidad": 10,
+          "descripcion": "DIURNO",
+          "inicio": "08:00",
+          "fin": "12:00",
+          "observacion": null,
+          "desactivado": null,
+          "dias": null,
+          "horaCorte": null,
+          "tipoRangoHorario": null,
+          "habilitado": null
+        },
+        {
+          "codigo": "NR",
+          "capacidad": null,
+          "descripcion": "NORMAL RANGO",
+          "inicio": "09:00",
+          "fin": "21:00",
+          "observacion": null,
+          "desactivado": null,
+          "dias": null,
+          "horaCorte": null,
+          "tipoRangoHorario": null,
+          "habilitado": null
+        },
+        {
+          "codigo": "PM",
+          "capacidad": null,
+          "descripcion": "TARDE",
+          "inicio": "13:00",
+          "fin": "17:00",
+          "observacion": null,
+          "desactivado": null,
+          "dias": null,
+          "horaCorte": null,
+          "tipoRangoHorario": null,
+          "habilitado": null
+        }
+      ],
+      "listCanalesVenta": [
+        {
+          "ccEntregaPK": {
+            "centroCosto": 2,
+            "canalVenta": {
+              "canalVenta": 25,
+              "descCanalVenta": "SSEE 2.0"
+            }
+          },
+          "codTipoCC": "H",
+          "ddSala": "T",
+          "ddConst": "T",
+          "rtSala": "T",
+          "rtConst": "T",
+          "descripcionTipoCC": "HUB"
+        },
+        {
+          "ccEntregaPK": {
+            "centroCosto": 2,
+            "canalVenta": {
+              "canalVenta": 26,
+              "descCanalVenta": "UXPOS"
+            }
+          },
+          "codTipoCC": "H",
+          "ddSala": "T",
+          "ddConst": "F",
+          "rtSala": "F",
+          "rtConst": "T",
+          "descripcionTipoCC": "HUB"
+        },
+        {
+          "ccEntregaPK": {
+            "centroCosto": 2,
+            "canalVenta": {
+              "canalVenta": 27,
+              "descCanalVenta": "VAT"
+            }
+          },
+          "codTipoCC": "H",
+          "ddSala": "T",
+          "ddConst": "T",
+          "rtSala": "F",
+          "rtConst": "T",
+          "descripcionTipoCC": "HUB"
+        },
+        {
+          "ccEntregaPK": {
+            "centroCosto": 2,
+            "canalVenta": {
+              "canalVenta": 28,
+              "descCanalVenta": "VV.EE."
+            }
+          },
+          "codTipoCC": "HI",
+          "ddSala": "T",
+          "ddConst": "T",
+          "rtSala": "T",
+          "rtConst": "F",
+          "descripcionTipoCC": "HUBI"
+        },
+        {
+          "ccEntregaPK": {
+            "centroCosto": 2,
+            "canalVenta": {
+              "canalVenta": 23,
+              "descCanalVenta": "eCommerce"
+            }
+          },
+          "codTipoCC": "H",
+          "ddSala": "T",
+          "ddConst": "T",
+          "rtSala": "T",
+          "rtConst": "T",
+          "descripcionTipoCC": "HUB"
+        },
+        {
+          "ccEntregaPK": {
+            "centroCosto": 2,
+            "canalVenta": {
+              "canalVenta": 20,
+              "descCanalVenta": "VSS"
+            }
+          },
+          "codTipoCC": "H",
+          "ddSala": "T",
+          "ddConst": "T",
+          "rtSala": "F",
+          "rtConst": "T",
+          "descripcionTipoCC": "HUB"
+        }
+      ],
+      "basContactName": "MARIELIS VERA                                     ",
+      "basEmail": "mxdiaz@sodimac.cl",
+      "recibePconst": "F",
+      "recibePreruteo": "F",
+      "recibePsala": "T",
+      "tipoStockp": 1,
+      "tipoStocks": 1,
+      "modifEstadodet": 0,
+      "diasDespacho": "LMWJV",
+      "diasDespachoCcs": "MWJV",
+      "diasRt": "LMWJVSD",
+      "diasProcesoCcs": "LMJV",
+      "diasTrabajo": "LMWJV",
+      "diasTrabajoRt": "LMWJVSD",
+      "diasViajeCcs": "JVS",
+      "despacha": 1,
+      "tpoProcesoPed": -1,
+      "tpoProcesoprodCcs": 0,
+      "tpoProcesoprod": 3233,
+      "tiendaRt": 1,
+      "capacidadCcs": 1000,
+      "capacidadOc": -1,
+      "capacidadPesoDesp": 45000,
+      "capacidadPesoRt": 1000,
+      "capacidadPickingPed": -1,
+      "capacidadVolumenDesp": 20,
+      "capacidadVolumenRt": 1000,
+      "cantDesp": 5,
+      "cantDespLun": 100,
+      "cantDespMar": 100,
+      "cantDespMie": 5,
+      "cantDespJue": 100,
+      "cantDespVie": 100,
+      "cantDespSab": 100,
+      "cantDespDom": null,
+      "cantRtLun": null,
+      "cantRtMar": null,
+      "cantRtMie": null,
+      "cantRtJue": null,
+      "cantRtVie": null,
+      "cantRtSab": null,
+      "cantRtDom": null,
+      "horaCorte": "18:00",
+      "organizacion": 0
+    },
+    {
+      "cc": 3,
+      "codTipocc": "HI",
+      "ccDireccion": "Limache  # 3119                         ",
+      "ccComuna": "LIMACHE",
+      "ccRegion": "V REGION DE VALPARAISO",
+      "ccCiudad": "VINA DEL MAR",
+      "ccNombre": "CO 03 Vina del Mar",
+      "ccNombreAbrev": "CO-VDM",
+      "ccIsStore": "F",
+      "ccDesactivado": 0,
+      "listCapacidadCanal": [
+        {
+          "canalVenta": 28,
+          "cc": 3,
+          "capacidad": 8,
+          "fechaDesde": "2016-01-20T00:00:00.000+0000",
+          "fechaHasta": "2016-01-31T00:00:00.000+0000",
+          "id": 106,
+          "rt": null
+        }
+      ],
+      "listRangoHora": [
+        {
+          "codigo": "AM",
+          "capacidad": 1,
+          "descripcion": "DIURNO",
+          "inicio": "08:00",
+          "fin": "12:00",
+          "observacion": null,
+          "desactivado": null,
+          "dias": null,
+          "horaCorte": null,
+          "tipoRangoHorario": null,
+          "habilitado": null
+        },
+        {
+          "codigo": "NR",
+          "capacidad": null,
+          "descripcion": "NORMAL RANGO",
+          "inicio": "09:00",
+          "fin": "21:00",
+          "observacion": null,
+          "desactivado": null,
+          "dias": null,
+          "horaCorte": null,
+          "tipoRangoHorario": null,
+          "habilitado": null
+        },
+        {
+          "codigo": "PM",
+          "capacidad": 1,
+          "descripcion": "TARDE",
+          "inicio": "13:00",
+          "fin": "17:00",
+          "observacion": null,
+          "desactivado": null,
+          "dias": null,
+          "horaCorte": null,
+          "tipoRangoHorario": null,
+          "habilitado": null
+        }
+      ],
+      "listCanalesVenta": [
+        {
+          "ccEntregaPK": {
+            "centroCosto": 3,
+            "canalVenta": {
+              "canalVenta": 25,
+              "descCanalVenta": "SSEE 2.0"
+            }
+          },
+          "codTipoCC": "H",
+          "ddSala": "F",
+          "ddConst": "T",
+          "rtSala": "T",
+          "rtConst": "T",
+          "descripcionTipoCC": "HUB"
+        },
+        {
+          "ccEntregaPK": {
+            "centroCosto": 3,
+            "canalVenta": {
+              "canalVenta": 23,
+              "descCanalVenta": "eCommerce"
+            }
+          },
+          "codTipoCC": "H",
+          "ddSala": "F",
+          "ddConst": "T",
+          "rtSala": "T",
+          "rtConst": "T",
+          "descripcionTipoCC": "HUB"
+        },
+        {
+          "ccEntregaPK": {
+            "centroCosto": 3,
+            "canalVenta": {
+              "canalVenta": 27,
+              "descCanalVenta": "VAT"
+            }
+          },
+          "codTipoCC": "H",
+          "ddSala": "F",
+          "ddConst": "T",
+          "rtSala": "T",
+          "rtConst": "T",
+          "descripcionTipoCC": "HUB"
+        },
+        {
+          "ccEntregaPK": {
+            "centroCosto": 3,
+            "canalVenta": {
+              "canalVenta": 28,
+              "descCanalVenta": "VV.EE."
+            }
+          },
+          "codTipoCC": "H",
+          "ddSala": "F",
+          "ddConst": "F",
+          "rtSala": "T",
+          "rtConst": "T",
+          "descripcionTipoCC": "HUB"
+        },
+        {
+          "ccEntregaPK": {
+            "centroCosto": 3,
+            "canalVenta": {
+              "canalVenta": 20,
+              "descCanalVenta": "VSS"
+            }
+          },
+          "codTipoCC": "H",
+          "ddSala": "F",
+          "ddConst": "T",
+          "rtSala": "T",
+          "rtConst": "T",
+          "descripcionTipoCC": "HUB"
+        },
+        {
+          "ccEntregaPK": {
+            "centroCosto": 3,
+            "canalVenta": {
+              "canalVenta": 26,
+              "descCanalVenta": "UXPOS"
+            }
+          },
+          "codTipoCC": "H",
+          "ddSala": "F",
+          "ddConst": "T",
+          "rtSala": "T",
+          "rtConst": "T",
+          "descripcionTipoCC": "HUB"
+        }
+      ],
+      "basContactName": "Oscar Mansilla                                    ",
+      "basEmail": "omansilla@sodimac.cl",
+      "recibePconst": "F",
+      "recibePreruteo": "T",
+      "recibePsala": "T",
+      "tipoStockp": 1,
+      "tipoStocks": 1,
+      "modifEstadodet": 1,
+      "diasDespacho": "LMWJVS",
+      "diasDespachoCcs": "LMWJV",
+      "diasRt": "LMWJVSD",
+      "diasProcesoCcs": "LMWJV",
+      "diasTrabajo": "LMWJV",
+      "diasTrabajoRt": "LMWJVSD",
+      "diasViajeCcs": "LMWJV",
+      "despacha": 1,
+      "tpoProcesoPed": -1,
+      "tpoProcesoprodCcs": 0,
+      "tpoProcesoprod": 1,
+      "tiendaRt": 1,
+      "capacidadCcs": 1000,
+      "capacidadOc": -1,
+      "capacidadPesoDesp": 4500,
+      "capacidadPesoRt": 45000,
+      "capacidadPickingPed": -1,
+      "capacidadVolumenDesp": 10,
+      "capacidadVolumenRt": 1,
+      "cantDesp": 5,
+      "cantDespLun": null,
+      "cantDespMar": null,
+      "cantDespMie": null,
+      "cantDespJue": null,
+      "cantDespVie": null,
+      "cantDespSab": null,
+      "cantDespDom": null,
+      "cantRtLun": null,
+      "cantRtMar": null,
+      "cantRtMie": null,
+      "cantRtJue": null,
+      "cantRtVie": null,
+      "cantRtSab": null,
+      "cantRtDom": null,
+      "horaCorte": "18:00",
+      "organizacion": 0
+    }
+  ]
+}
